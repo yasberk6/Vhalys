@@ -1,0 +1,45 @@
+Gereksinimler
+
+1. Giriş Yapma
+
+Kullanıcıların hizmetlere erişebilmesi için kimlik doğrulama sürecidir. Yetkisiz erişimi engelleyerek kişisel verilerin güvenliğini sağlar. Kullanıcı adı ve şifre kombinasyonu veya alternatif kimlik doğrulama yöntemleri kullanılabilir.
+
+2. Üye Olma
+
+Kullanıcıların yeni hesap oluşturarak hizmetin tüm özelliklerine erişmesini sağlar. Kışisel bilgilerin toplanması ve hesap doğrulama işlemlerini kapsar. E-posta doğrulama veya SMS onayı gibi ek güvenlik adımları desteklenebilir.
+
+3. Fikir Ekleme
+
+Kullanıcıların yeni fikirler ekleyebilmesini sağlar. Firestore veritabanına kaydedilen fikirler belirli kategorilere atanabilir. Fikirler metin, resim veya video içerebilir.
+
+4. Fikir Listeleme
+
+Eklenen fikirlerin belirli kriterlere (kategori, tarih, popülerlik vb.) göre sıralanarak görüntülenmesini sağlar.
+
+5. Fikir Güncelleme ve Silme
+
+Kullanıcıların ekledikleri fikirleri düzenleyebilmesi veya silebilmesini sağlar. Yetkilendirme kontrolleri ile yalnızca fikir sahibinin bu işlemleri yapması garanti edilir.
+
+6. Yorum Ekleme
+
+Kullanıcıların fikirler hakkında yorum yapmasını sağlar. Yorumlar Firestore veritabanında ilgili fikir ile ilişkili olarak kaydedilir.
+
+7. Yorum Listeleme
+
+Eklenen yorumların fikirlerle birlikte gösterilmesini sağlar. Yorumlar tarih veya popülerlik sırasına göre sıralanabilir.
+
+8. Yorum Güncelleme ve Silme
+
+Kullanıcıların yazdıkları yorumları düzenleyebilmesi veya silebilmesini sağlar. Yalnızca yorum sahibi bu işlemleri gerçekleştirebilir.
+
+9. Beğeni İşlemi
+
+Kullanıcıların fikirleri veya yorumları beğenmesini sağlar. Beğeni sayıları veritabanında saklanarak popüler fikirler belirlenebilir.
+
+10. Kategori Seçimi
+
+Kullanıcıların fikirleri belirli kategorilere göre filtreleyerek daha kolay erişmesini sağlar.
+
+11. Popüler Fikirleri Listeleme
+
+En çok beğeni alan veya en çok yorum yapılan fikirlerin listelenmesini sağlar.
